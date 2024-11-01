@@ -86,7 +86,7 @@ function showHeatmap(logg) {
             date: {
                 start: new Date('2024-11-01'),
             },
-            range: 10,
+            range: Math.max(4, window.innerWidth / 100),
             scale: {
                 color: {
                     type: 'linear',
