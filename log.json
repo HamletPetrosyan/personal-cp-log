@@ -1,7 +1,7 @@
 {
     "2024-11-01": [
         {
-            "problem-name": "",
+            "name": "",
             "source": "",
             "platform": "",
             "tags": [],
@@ -9,7 +9,7 @@
             "difficulty": 1
         },
         {
-            "problem-name": "A. Slayyyy",
+            "name": "A. Slayyyy",
             "source": "Codeforces Global Round 13",
             "platform": "Codeforces",
             "tags": ["implementation"],
@@ -17,7 +17,7 @@
             "difficulty": 1
         },
         {
-            "problem-name": "A. Slayyyy",
+            "name": "A. Slayyyy",
             "source": "Codeforces Global Round 13",
             "platform": "Codeforces",
             "tags": ["implementation"],
@@ -27,7 +27,7 @@
     ],
     "2024-11-02": [
         {
-            "problem-name": "A. Slayyyy",
+            "name": "A. Slayyyy",
             "source": "Codeforces Global Round 13",
             "platform": "Codeforces",
             "tags": ["implementation"],
