@@ -56,7 +56,7 @@ with open(f"log{logdata['version']}.json", mode="w", encoding="utf-8") as write_
 with open("script.js", mode="r", encoding="utf-8") as read_file:
     js = read_file.readlines()
 
-js[1] = f'fetch("https://raw.githubusercontent.com/HamletPetrosyan/personal-cp-log/refs/heads/master/log{logdata["version"]}.json")'
+js[1] = f'fetch("https://raw.githubusercontent.com/HamletPetrosyan/personal-cp-log/refs/heads/master/log{logdata["version"]}.json")\n'
 
 with open("script.js", mode="w", encoding="utf-8") as write_file:
     write_file.writelines(js)
