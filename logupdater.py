@@ -21,8 +21,9 @@ todaydate = datetime.today().strftime('%Y-%m-%d')
 name = input("Insert the problem name: ")
 source = input("Insert the source: ")
 platform = input("Insert the platform: ")
-tags = input("Insert the tags (using commas): ").replace(' ', '').split(",")
+tags = [tag.strip() for tag in input("Insert the tags (using commas): ").split(",")]
 difficulty = int(input("Insert the difficulty: "))
+implementation = input("Insert the implementation difficulty: ")
 comment = input("Insert your comment: ")
 
 if not todaydate in log:
@@ -34,7 +35,8 @@ log[todaydate].append({
     "platform": platform,
     "tags": tags,
     "comment": comment,
-    "difficulty": difficulty
+    "difficulty": difficulty,
+    "implementation": implementation
 })
 
 

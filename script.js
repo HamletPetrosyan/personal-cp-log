@@ -1,5 +1,5 @@
 // do not change 2nd line, logupdater.py changes it
-fetch("https://raw.githubusercontent.com/HamletPetrosyan/personal-cp-log/refs/heads/master/log2.json")
+fetch("https://raw.githubusercontent.com/HamletPetrosyan/personal-cp-log/refs/heads/master/log3.json")
 .then(result => result.json())
 .then(out => fillwebsite(out))
 .catch(err => console.log(err))
@@ -41,7 +41,9 @@ function pushToList(item, date){
             <div class="text-end">
                 <small>${formatLocalDate(date)}</small>
                 <br>
-                difficulty: <span class="badge text-bg-secondary rounded-pill">${item["difficulty"]}</span>
+                Difficulty: <span class="badge text-bg-secondary">${item["difficulty"]}</span>
+                <br>
+                Implementation: <span class="badge text-bg-secondary">${item["implementation"]}</span>
             </div>
         </div>`
         + (
