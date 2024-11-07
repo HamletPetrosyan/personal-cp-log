@@ -1,1 +1,29 @@
-{"2024-11-02": [{"name": "A. Italian Cuisine", "source": "The 3rd Universal Cup. Stage 10: West Lake", "platform": "contest.ucup.ac", "tags": ["geometry"], "comment": "", "difficulty": 2}], "2024-11-04": [{"name": "K. Palindromic Polygon", "source": "The 3rd Universal Cup. Stage 10: West Lake", "platform": "contest.ucup.ac", "tags": ["geometry", "dp"], "comment": "", "difficulty": 3}]}
+{
+    "2024-11-02": [
+        {
+            "name": "A. Italian Cuisine",
+            "source": "The 3rd Universal Cup. Stage 10: West Lake",
+            "platform": "contest.ucup.ac",
+            "tags": [
+                "geometry"
+            ],
+            "comment": "",
+            "difficulty": 1,
+            "implementation": 1  
+        }
+    ],
+    "2024-11-04": [
+        {
+            "name": "K. Palindromic Polygon",
+            "source": "The 3rd Universal Cup. Stage 10: West Lake",
+            "platform": "contest.ucup.ac",
+            "tags": [
+                "geometry",
+                "dp"
+            ],
+            "comment": "",
+            "difficulty": 2,
+            "implementation": 1
+        }
+    ]
+}
