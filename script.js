@@ -1,5 +1,5 @@
 // do not change 2nd line, logupdater.py changes it
-fetch("https://raw.githubusercontent.com/HamletPetrosyan/personal-cp-log/refs/heads/master/log10.json")
+fetch("https://raw.githubusercontent.com/HamletPetrosyan/personal-cp-log/refs/heads/master/log12.json")
 .then(result => result.json())
 .then(out => fillwebsite(out))
 .catch(err => console.log(err))
